@@ -130,3 +130,42 @@ top:62%;
 
 
 }
+
+
+.wholepost {
+
+    display:flex;
+
+
+}
+
+.allimage {
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.multiimages {
+
+display:flex;
+width:30vw;
+margin-top:10%;
+align-self:center;
+justify-content: center;
+
+
+}
+
+.gallery {
+
+    display:flex;
+    display:flex;
+    width:30vw;
+    margin-top:10%;
+    align-self:center;
+    justify-content: center;
+
+}
