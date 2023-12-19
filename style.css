@@ -1,0 +1,132 @@
+.toplogo {
+
+display:flex;
+align-self:center;
+justify-content: center;
+
+
+}
+
+.logo {
+
+
+    display:flex;
+    width:30vw;
+    align-self:center;
+    justify-content: center;
+
+}
+
+
+.wholenavbar {
+
+
+    display:flex;
+    width:100vw;
+    height:5vh;
+    justify-content: center;
+    
+    
+
+}
+
+.navbar {
+
+    display:flex;
+    gap:5vw;
+    justify-content: center;
+    border: 5px solid black;
+    margin-top:3%;
+    padding:3vh;
+    width:95vw;
+
+
+
+
+}
+
+.navbarItem {
+
+    display:flex;
+    font-size: 2vw;
+    align-self:center;
+    
+    
+
+
+
+}
+
+
+.wholeposts {
+
+    display:flex;
+    flex-direction: column;
+
+
+}
+
+.postrow {
+
+    display:flex;
+    width:75vw;
+    margin-top:6%;
+    justify-content: center;
+    align-items: center;
+    gap:1vw;
+
+
+}
+
+.singlelinkimg {
+
+    width:33%;
+    display:flex;
+    justify-content: center;
+
+
+}
+
+
+.postlinkimg {
+
+    
+    display:flex;
+    align-self: center;
+
+
+}
+
+
+.postimg {
+
+    width:100%;
+    display:flex;
+    margin-left:1vw;
+
+
+}
+
+.wholepage {
+
+display:flex;
+
+
+
+}
+
+
+.sidebar {
+
+display:flex;
+background-color: black;
+width:20vw;
+height:80vh;
+position: absolute; 
+right: 0%;
+top:62%;
+
+
+
+
+}
