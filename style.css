@@ -73,6 +73,8 @@ justify-content: center;
 
     display:flex;
     flex-direction: column;
+    justify-content: center;
+    align-items:center;
 
 
 }
@@ -104,6 +106,7 @@ justify-content: center;
     
     display:flex;
     align-self: center;
+    justify-content: center;
 
 
 }
@@ -138,6 +141,38 @@ right: 0%;
 top:62%;
 
 
+
+
+}
+
+.TitleLatest {
+
+    display:flex;
+    text-align: center;
+    font-size: 3vw;
+
+
+
+}
+
+.latestPost {
+
+    display:flex;
+    flex-direction: column;
+    margin-top:3vh;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.postimgLatest {
+
+    width:60%;
+    display:flex;
+    margin-left:1vw;
+    justify-content: center;
 
 
 }
