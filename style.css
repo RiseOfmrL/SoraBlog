@@ -17,14 +17,24 @@ justify-content: center;
 
 }
 
+.realwholenavbar {
+
+    display:flex;
+    justify-content: center;
+    align-content: center;
+
+
+}
 
 .wholenavbar {
 
 
     display:flex;
-    width:100vw;
+    width:95vw;
     height:5vh;
     justify-content: center;
+    position:sticky;
+    align-self: center;
     
     
 
@@ -39,6 +49,7 @@ justify-content: center;
     margin-top:3%;
     padding:3vh;
     width:95vw;
+    justify-self:center;
 
 
 
@@ -135,6 +146,29 @@ top:62%;
 .wholepost {
 
     display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.Title {
+
+    display:flex;
+    text-align: center;
+    font-size: 5vw;
+    font-weight: 800;
+
+
+}
+
+.stars {
+
+    display:flex;
+    width:10vw;
+    margin-bottom:-5vh;
+
 
 
 }
@@ -144,6 +178,8 @@ top:62%;
     display:flex;
     justify-content: center;
     align-items: center;
+    gap:2vw;
+    margin-top:-10vh;
 
 
 }
@@ -162,10 +198,27 @@ justify-content: center;
 .gallery {
 
     display:flex;
-    display:flex;
     width:30vw;
     margin-top:10%;
     align-self:center;
     justify-content: center;
+
+}
+
+.wholepostdescription {
+
+    display:flex;
+    width:60vw;
+    flex-direction: column;
+
+
+}
+
+.postdescription {
+
+    display:flex;
+    text-align: center;
+   
+
 
 }
