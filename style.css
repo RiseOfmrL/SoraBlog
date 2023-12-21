@@ -133,16 +133,25 @@ display:flex;
 .sidebar {
 
 display:flex;
-background-color: black;
 width:20vw;
-height:80vh;
+height:100vh;
 position: absolute; 
 right: 0%;
 top:62%;
+border:5px solid gray;
+padding-bottom: 100vh;
+flex-direction: column;
 
 
 
 
+}
+
+.sidebarsection {
+
+    display: flex;
+    text-align: center;
+    font-size: 2vh;
 }
 
 .TitleLatest {
