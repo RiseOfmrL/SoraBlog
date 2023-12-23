@@ -169,6 +169,10 @@ align-items: center;
 
     display:flex;
     gap:2vh;
+    border-bottom:5px solid gray;
+    padding-bottom:1vh;
+    padding-left:1vh;
+    padding-right:1vh;
 
 
 }
