@@ -154,6 +154,39 @@ align-items: center;
     text-align: center;
     font-size: 2vh;
     justify-self: center;
+
+}
+
+.selector {
+
+
+    display:flex; 
+
+}
+
+.CuisineSelectors {
+
+
+    display:flex;
+    gap:1vh;
+
+
+}
+
+#Chinese {
+
+    display:flex;
+    padding:-1vh;
+
+
+}
+
+.selectorType {
+
+
+    flex-direction: column;
+
+
 }
 
 .select {
